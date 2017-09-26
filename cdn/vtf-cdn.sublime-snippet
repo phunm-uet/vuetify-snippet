@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+ <script src="https://unpkg.com/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vtf-cdn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
