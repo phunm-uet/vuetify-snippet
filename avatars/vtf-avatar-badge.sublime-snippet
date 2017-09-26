@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<v-avatar
+  class="purple red--after"
+  v-badge="{ overlap: true, value: '3' }"
+>
+  <v-icon dark>notifications</v-icon>
+</v-avatar>
+]]></content>
+	<tabTrigger>vtf-avatar:badge</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

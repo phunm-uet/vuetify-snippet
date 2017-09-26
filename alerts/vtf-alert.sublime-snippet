@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-alert info dismissible v-model="alert">
+  This is a success alert that is closable.
+</v-alert>
+]]></content>
+	<tabTrigger>vtf-alert</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

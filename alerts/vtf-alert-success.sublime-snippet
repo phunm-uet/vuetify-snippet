@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-alert success value="true">
+  This is a success alert.
+</v-alert>
+]]></content>
+	<tabTrigger>vtf-alert:success</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

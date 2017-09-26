@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<v-avatar
+  tile=false
+  :size="avatarSize"
+  class="grey lighten-4"
+>
+  <img src="http://wiki.teamliquid.net/commons/images/6/6b/Secret_logo.png" alt="avatar">
+</v-avatar>
+]]></content>
+	<tabTrigger>vtf-avatar</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

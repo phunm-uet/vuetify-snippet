@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-alert info value="true">
+  This is a info alert.
+</v-alert>
+]]></content>
+	<tabTrigger>vtf-alert:info</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

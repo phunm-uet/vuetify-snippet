@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-avatar class="teal">
+  <span class="white--text headline">N</span>
+</v-avatar>
+]]></content>
+	<tabTrigger>vtf-avatar:text</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

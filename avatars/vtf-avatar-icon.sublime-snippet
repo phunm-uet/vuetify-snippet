@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-avatar class="indigo">
+  <v-icon dark>account_circle</v-icon>
+</v-avatar>
+]]></content>
+	<tabTrigger>vtf-avatar:icon</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>
