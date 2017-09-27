@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+  	<v-data-table
+	    v-bind:headers="headers"
+	    v-bind:items="items"
+	    v-bind:search="search"
+	    v-model="selected"
+	    selected-key="name"
+	    select-all
+	    class="elevation-1"
+	  >
+	    <template slot="headerCell" scope="props">
+	      <span v-tooltip:bottom="{ 'html': props.header.text }">
+	        {{ props.header.text }}
+	      </span>
+	    </template>
+	    <template slot="items" scope="props">
+	      <td>
+	        <v-checkbox
+	          primary
+	          hide-details
+	          v-model="props.selected"
+	        ></v-checkbox>
+	      </td>
+	      <td>{{ props.item.name }}</td>
+	      <td class="text-xs-right">{{ props.item.calories }}</td>
+	      <td class="text-xs-right">{{ props.item.fat }}</td>
+	      <td class="text-xs-right">{{ props.item.carbs }}</td>
+	      <td class="text-xs-right">{{ props.item.protein }}</td>
+	      <td class="text-xs-right">{{ props.item.sodium }}</td>
+	      <td class="text-xs-right">{{ props.item.calcium }}</td>
+	      <td class="text-xs-right">{{ props.item.iron }}</td>
+	    </template>
+	  </v-data-table>
+]]></content>
+	<tabTrigger>vtf-table:select</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>
