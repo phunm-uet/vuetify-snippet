@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+      <v-card-media src="/static/doc-images/cards/desert.jpg" height="200px">
+      </v-card-media>
+]]></content>
+	<tabTrigger>vtf-card:media</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

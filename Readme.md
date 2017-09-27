@@ -8,7 +8,7 @@ Vuetify : [Homepage](https://vuetifyjs.com/)
 
 - [Installation](#installation)
 - [CDN](#cdn)
-- [Alert](#alert)
+- [Alerts](#alerts)
 - [Avater](#avatar)
 
 ### Installation
