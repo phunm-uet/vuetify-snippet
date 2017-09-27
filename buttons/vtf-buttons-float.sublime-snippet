@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-btn fab dark small class="pink">
+  <v-icon dark>favorite</v-icon>
+</v-btn>
+]]></content>
+	<tabTrigger>vtf-btn:float</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

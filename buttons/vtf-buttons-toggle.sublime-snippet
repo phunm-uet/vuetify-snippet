@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<v-btn-toggle v-model="toggle_exclusive">
+  <v-btn flat>
+    <v-icon>format_align_left</v-icon>
+  </v-btn>
+  <v-btn flat>
+    <v-icon>format_align_center</v-icon>
+  </v-btn>
+  <v-btn flat>
+    <v-icon>format_align_right</v-icon>
+  </v-btn>
+  <v-btn flat>
+    <v-icon>format_align_justify</v-icon>
+  </v-btn>
+</v-btn-toggle>
+]]></content>
+	<tabTrigger>vtf-btn:toggle</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

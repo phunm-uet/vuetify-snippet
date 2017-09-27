@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<v-btn
+  :loading="loading"
+  @click.native="loader = 'loading'"
+  :disabled="loading"
+  class="blue-grey white--text"
+>
+  Upload
+  <v-icon right dark>cloud_upload</v-icon>
+</v-btn>
+]]></content>
+	<tabTrigger>vtf-btn:loader</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

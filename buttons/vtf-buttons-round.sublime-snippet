@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<v-btn round primary dark>Rounded Button</v-btn>
+]]></content>
+	<tabTrigger>vtf-btn:round</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

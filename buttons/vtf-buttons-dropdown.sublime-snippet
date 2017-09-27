@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<v-select v-bind:items="items" overflow label="Select"></v-select>
+]]></content>
+	<tabTrigger>vtf-btn:dropdown</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

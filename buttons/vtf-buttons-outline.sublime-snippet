@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<v-btn outline class="indigo--text">Outline Button</v-btn>
+]]></content>
+	<tabTrigger>vtf-btn:outline</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

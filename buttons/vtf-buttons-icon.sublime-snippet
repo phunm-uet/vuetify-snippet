@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<v-btn icon class="pink--text">
+  <v-icon>favorite</v-icon>
+</v-btn>
+]]></content>
+	<tabTrigger>vtf-btn:icon</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>
