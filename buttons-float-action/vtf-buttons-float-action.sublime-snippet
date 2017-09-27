@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<v-btn
+  absolute
+  dark
+  fab
+  top
+  right
+  class="pink"
+>
+  <v-icon>add</v-icon>
+</v-btn>
+]]></content>
+	<tabTrigger>vtf-btn:action</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>
