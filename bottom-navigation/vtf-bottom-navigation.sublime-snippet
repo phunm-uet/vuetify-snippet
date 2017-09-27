@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<v-bottom-nav absolute :value="true" :active.sync="recent" class="transparent">
+  <v-btn flat class="teal--text" value="recent">
+    <span>Recent</span>
+    <v-icon>history</v-icon>
+  </v-btn>
+  <v-btn flat class="teal--text" value="favorites">
+    <span>Favorites</span>
+    <v-icon>favorite</v-icon>
+  </v-btn>
+  <v-btn flat class="teal--text" value="nearby">
+    <span>Nearby</span>
+    <v-icon>place</v-icon>
+  </v-btn>
+</v-bottom-nav>
+]]></content>
+	<tabTrigger>vtf-botnav</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>
