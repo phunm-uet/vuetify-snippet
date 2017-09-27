@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+  	<v-chip outline class="red red--text">
+      <v-icon left>build</v-icon>Icon
+    </v-chip>
+]]></content>
+	<tabTrigger>vtf-chips:outline</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

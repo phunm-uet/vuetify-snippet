@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+  		<v-select
+	    	label="Your favorite hobbies"
+	    	chips
+	    	tags
+	    	solo
+	    	prepend-icon="filter_list"
+	    	append-icon=""
+	    	clearable
+	    	v-model="chips"
+	  	>
+	    	<template slot="selection" scope="data">
+	      		<v-chip
+	        		close
+	        		:selected="data.selected"
+	      		>
+	        		<strong>{{ data.item }}</strong> 
+	        		<span>(interest)</span>
+	      		</v-chip>
+	    	</template>
+	  	</v-select>
+]]></content>
+	<tabTrigger>vtf-chips:select</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

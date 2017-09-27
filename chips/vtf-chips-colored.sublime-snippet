@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+      <v-chip class="primary white--text">Primary</v-chip>
+]]></content>
+	<tabTrigger>vtf-chips:color</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

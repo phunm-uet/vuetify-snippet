@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+      <v-chip close>
+        <v-avatar>
+          <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="trevor">
+        </v-avatar>
+        Trevor Hansen
+      </v-chip>
+]]></content>
+	<tabTrigger>vtf-chips</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>

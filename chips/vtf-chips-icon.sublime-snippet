@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+  	<v-chip class="primary white--text">
+      1 Year
+      <v-icon right>cake</v-icon>
+    </v-chip>
+]]></content>
+	<tabTrigger>vtf-chips:icon</tabTrigger>
+	<scope>text.html,text.html.vue</scope>
+</snippet>
