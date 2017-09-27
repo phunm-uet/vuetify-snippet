@@ -35,7 +35,7 @@ You can type **vtf-*** to sugguest snippets
 | Vuetify Warning Alert 		 | vtf-alert:warning 	        |
 | Vuetify Info Alert			| vtf-alert:info			    |
 | Vuetify Error Alert            | vtf-alert:error              |
-| Vuetify Success Alert 		 | bs3-alert:success	        |
+| Vuetify Success Alert 		 | vtf-alert:success	        |
 
 ### Avatar
 
